@@ -77,8 +77,8 @@ public class kebersihanKelas extends RuangKelas{
     
     
     
-    //public void kebersihan(){
-    public void inputan(){
+    public void kebersihan(){
+    //public void inputan(){
         System.out.println("\nSirkulasi udara (lancar/tidak) = ");
         String ab=as.next();
         setSirkulasiudara(ab);
@@ -93,8 +93,8 @@ public class kebersihanKelas extends RuangKelas{
         setSuhu(ae);
     }
     
-    //public void hasilkebersihan(){
-    public void outputan(){
+    public void hasilkebersihan(){
+    //public void outputan(){
         System.out.println("\nSirkulasi udara = "+getSirkulasiudara());
         System.out.println("Pencahayaan = "+getPencahayaan());
         System.out.println("Kelembaban = "+getKelembaban());
